@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
+// import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg/single-page'
 import App from './App.vue'
-import 'virtual:svg-icons-register';
 
-createApp(App).mount('#app')
+//createApp(App).mount('#app')
+export const createApp = ViteSSG(
+    App,
+    ({ app, initialState }) => {
+    },
+  )

@@ -1,16 +1,31 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import viteSvgIcons from 'vite-plugin-svg-icons';
-import path from 'path';
+import { UserConfig } from 'vite'
+import Vue from '@vitejs/plugin-vue'
+import Icons from 'unplugin-icons/vite'
+import { FileSystemIconLoader } from 'unplugin-icons/loaders'
+import IconsResolver from 'unplugin-icons/resolver'
+import Components from 'unplugin-vue-components/vite'
 
-
-// https://vitejs.dev/config/
-export default defineConfig({
+const config: UserConfig = {
   plugins: [
-    vue(),
-    viteSvgIcons({
-      iconDirs: [path.resolve(process.cwd(), 'src/icons')],
-      symbolId: 'icon-[dir]-[name]',
-    })
-  ]
-})
+    Vue(),
+    Icons({      
+      compiler: 'vue3',
+      customCollections: {
+        'my-icons': FileSystemIconLoader('./src/icons'),
+      }
+    }),
+    Components({
+      dts: true,
+      resolvers: [
+        IconsResolver({
+          customCollections: ['my-icons'],
+        }),
+      ],
+    }),
+  ],
+  ssgOptions: {
+    script: 'async',
+    formatting: 'prettify',
+  }
+}
+export default config

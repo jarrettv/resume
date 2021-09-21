@@ -20,7 +20,7 @@
 
     <h3>Education</h3>
     <article>
-      <svg width="48" height="48"><use href="#icon-auburn"/></svg>
+      <i-my-icons-auburn style="color:#ee7623" width="48" height="48" />
       <div>
         <strong>Auburn University</strong>
         <div>BSCS, Computer Science</div>
@@ -30,7 +30,7 @@
 
     <h3>Experience</h3>
     <article>
-      <svg width="48" height="48"><use href="#icon-illumicare"/></svg>
+      <i-my-icons-illumicare style="color:#0066CC;" width="48" height="48" />
       <div>
         <strong>IllumiCare, Inc.</strong>
         <div>Senior Architect</div>
@@ -48,7 +48,7 @@
     </ul>
 
     <article>
-      <svg width="48" height="48"><use href="#icon-cgi"/></svg>
+      <i-my-icons-cgi style="color:#E11937;" width="48" height="48" />
       <div>
         <strong>CGI</strong>
         <div>Senior Consultant</div>
@@ -65,7 +65,7 @@
     </ul>
     
     <article>
-      <svg width="48" height="48"><use href="#icon-cts"/></svg>
+      <i-my-icons-cts style="color:#083f77;" width="48" height="48"/>
       <div>
         <strong>Computer Technology Solutions, Inc.</strong>
         <div>Architect <small style="opacity:0.8">(+3 more)</small></div>
@@ -94,7 +94,7 @@
     </ul>
 
     <article>
-      <svg width="48" height="48"><use href="#icon-auburn"/></svg>
+      <i-my-icons-auburn style="color:#ee7623" width="48" height="48" />
       <div>
         <strong>Auburn University Libraries</strong>
         <div>IT Specialist</div>
@@ -111,9 +111,9 @@
   </section>
   <section>
     <div class="links">
-      <a href="https://github.com/jarrettv"><svg width="20" height="20"><use href="#icon-github"/></svg>jarrettv</a>
-      <a href="https://www.linkedin.com/in/jarrettv"><svg width="20" height="20"><use href="#icon-linkedin"/></svg>jarrettv</a>
-      <a href="https://twitter.com/jarrettv"><svg width="20" height="20"><use href="#icon-twitter"/></svg>jarrettv</a>
+      <a href="https://github.com/jarrettv"><i-mdi-github width="20" height="20" />jarrettv</a>
+      <a href="https://www.linkedin.com/in/jarrettv"><i-mdi-linkedin width="20" height="20"/>jarrettv</a>
+      <a href="https://twitter.com/jarrettv"><i-mdi-twitter width="20" height="20"/>jarrettv</a>
     </div>
     <h3>Specialties</h3>
     <ul>
