@@ -6,7 +6,7 @@
 
 <header>
   <h1>Jarrett E. S. Vance</h1>
-  <h2>Senior Architect</h2>
+  <h2>Senior Software Architect</h2>
   <address>Vestavia Hills, AL 35216<br/>
   <a href="mailto:jarrettv@gmail.com">jarrettv@gmail.com</a></address>
 </header>
@@ -22,7 +22,7 @@
     <article>
       <svg width="48" height="48"><use href="#icon-auburn"/></svg>
       <div>
-        <strong>Auburn Univeristy</strong>
+        <strong>Auburn University</strong>
         <div>BSCS, Computer Science</div>
         <div style="font-size:0.8rem;opacity:0.8">1999-2003</div>
       </div>
@@ -96,7 +96,7 @@
     <article>
       <svg width="48" height="48"><use href="#icon-auburn"/></svg>
       <div>
-        <strong>Auburn Univeristy Libraries</strong>
+        <strong>Auburn University Libraries</strong>
         <div>IT Specialist</div>
       </div>
       <address>
@@ -132,16 +132,17 @@
       <li>C#, .NET, Python, NodeJS</li>
       <li>SQL, Mongo, Cosmos</li>
       <li>REST, gRPC, GraphQL</li>
+      <li>Arduino, MQTT, esphome</li>
       <li><small style="opacity:0.8">+ many more</small></li>
     </ul>
     <h3>Industries</h3>
     <ul>
       <li>healthcare</li>
-      <li>embedded platforms</li>
+      <li>IoT, embedded platforms</li>
       <li>financial services</li>
       <li>energy and utilities</li>
       <li>business intelligence</li>
-      <li>residential services</li>
+      <li>professional services</li>
     </ul>
   </section>
 </main>
@@ -208,6 +209,7 @@ article>address {
 text-decoration: none;
 margin-bottom: 0.2rem;
 }
+.links>a:visited { color:blue}
 .links>a>svg {
   color:#2c3e50;
   margin-right:0.3rem;vertical-align: middle;
