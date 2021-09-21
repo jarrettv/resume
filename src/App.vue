@@ -117,14 +117,14 @@
     </div>
     <h3>Specialties</h3>
     <ul>
-      <li>agile</li>
-      <li>service oriented architecture</li>
-      <li>domain driven design</li>
+      <li>Agile</li>
+      <li>Service oriented architecture</li>
+      <li>Domain driven design</li>
       <li>UX design (wireframes/mockups)</li>
-      <li>enterprise applications</li>
-      <li>microservices</li>
-      <li>event driven architecture</li>
-      <li>data integration</li>
+      <li>Enterprise applications</li>
+      <li>Microservices</li>
+      <li>Event driven architecture</li>
+      <li>Data integration</li>
     </ul>
     <h3>Technologies</h3>
     <ul>
@@ -138,12 +138,12 @@
     </ul>
     <h3>Industries</h3>
     <ul>
-      <li>healthcare</li>
-      <li>IoT, embedded platforms</li>
-      <li>financial services</li>
-      <li>energy and utilities</li>
-      <li>business intelligence</li>
-      <li>professional services</li>
+      <li>Healthcare</li>
+      <li>IoT, Embedded platforms</li>
+      <li>Financial services</li>
+      <li>Energy and utilities</li>
+      <li>Business intelligence</li>
+      <li>Professional services</li>
     </ul>
   </section>
 </main>
