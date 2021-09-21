@@ -130,6 +130,7 @@
     <ul>
       <li>VueJS, React, Typescript</li>
       <li>C#, .NET, Python, NodeJS</li>
+      <li>Docker, Cloud Foundry</li>
       <li>SQL, Mongo, Cosmos</li>
       <li>REST, gRPC, GraphQL</li>
       <li>Arduino, MQTT, esphome</li>
