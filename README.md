@@ -10,5 +10,5 @@ Site is currently hosted at [resume.vestaviahills.us](resume.vestaviahills.us)
 
 ## Build for static hosting
 
-This single page app is intended to generate a static site. To builde use
+This single page app is intended to generate a static site. To build use
 `npm run build`
