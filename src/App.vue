@@ -43,8 +43,10 @@
     <ul>
       <li>Architect solutions targeting AWS and Citrix</li>
       <li>Lead UX designer</li>
-      <li>Develop best practices</li>
-      <li>DynamoDB, Lambda, Fargate, ECS, SQS, S3, etc.</li>
+      <li>Document &amp; present best practices</li>
+      <li>Migrate parts of monolith to microservices</li>
+      <li>Implement multi-tenant silos to protect PHI</li>
+      <li>Experience with DynamoDB, Lambda, Fargate, ECS, SQS, S3, etc.</li>
     </ul>
 
     <article>
